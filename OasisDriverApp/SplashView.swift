@@ -12,7 +12,7 @@ struct SplashView: View {
     @State private var size = 1.6
     @State private var opacity = 0.5
     
-    
+    @EnvironmentObject var authContext: AuthContext
     
     var body: some View {
         if isActive{

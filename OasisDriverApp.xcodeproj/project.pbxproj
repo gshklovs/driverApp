@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2760042AA10DCF00460E43 /* RegisterFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2760032AA10DCF00460E43 /* RegisterFieldsView.swift */; };
 		7DB5E2F22A9C24FD005A2D37 /* OasisDriverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5E2F12A9C24FD005A2D37 /* OasisDriverAppApp.swift */; };
 		7DB5E2F42A9C24FD005A2D37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5E2F32A9C24FD005A2D37 /* ContentView.swift */; };
 		7DB5E2F62A9C24FD005A2D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5E2F52A9C24FD005A2D37 /* Assets.xcassets */; };
 		7DB5E2F92A9C24FD005A2D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5E2F82A9C24FD005A2D37 /* Preview Assets.xcassets */; };
 		7DB5E3002A9D07E0005A2D37 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5E2FF2A9D07E0005A2D37 /* SplashView.swift */; };
+		7DB5E3022A9D832C005A2D37 /* LoginFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5E3012A9D832C005A2D37 /* LoginFieldsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D2760032AA10DCF00460E43 /* RegisterFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFieldsView.swift; sourceTree = "<group>"; };
 		7DB5E2EE2A9C24FD005A2D37 /* OasisDriverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OasisDriverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB5E2F12A9C24FD005A2D37 /* OasisDriverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OasisDriverAppApp.swift; sourceTree = "<group>"; };
 		7DB5E2F32A9C24FD005A2D37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DB5E2F52A9C24FD005A2D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB5E2F82A9C24FD005A2D37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DB5E2FF2A9D07E0005A2D37 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7DB5E3012A9D832C005A2D37 /* LoginFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 		7DB5E2E52A9C24FD005A2D37 = {
 			isa = PBXGroup;
 			children = (
+				7D2760032AA10DCF00460E43 /* RegisterFieldsView.swift */,
 				7DB5E2F02A9C24FD005A2D37 /* OasisDriverApp */,
 				7DB5E2EF2A9C24FD005A2D37 /* Products */,
 			);
@@ -55,6 +60,7 @@
 			children = (
 				7DB5E2F12A9C24FD005A2D37 /* OasisDriverAppApp.swift */,
 				7DB5E2F32A9C24FD005A2D37 /* ContentView.swift */,
+				7DB5E3012A9D832C005A2D37 /* LoginFieldsView.swift */,
 				7DB5E2FF2A9D07E0005A2D37 /* SplashView.swift */,
 				7DB5E2F52A9C24FD005A2D37 /* Assets.xcassets */,
 				7DB5E2F72A9C24FD005A2D37 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB5E3022A9D832C005A2D37 /* LoginFieldsView.swift in Sources */,
+				7D2760042AA10DCF00460E43 /* RegisterFieldsView.swift in Sources */,
 				7DB5E2F42A9C24FD005A2D37 /* ContentView.swift in Sources */,
 				7DB5E2F22A9C24FD005A2D37 /* OasisDriverAppApp.swift in Sources */,
 				7DB5E3002A9D07E0005A2D37 /* SplashView.swift in Sources */,

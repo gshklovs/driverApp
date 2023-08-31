@@ -7,11 +7,18 @@
 
 import SwiftUI
 
+final class AuthContext: ObservableObject {
+    @Published var loggedIn: Bool = false
+    @Published var isOnRegisterView: Bool = false
+}
+
 @main
 struct OasisDriverAppApp: App {
+    @StateObject var authContext = AuthContext()
+    
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            SplashView().environmentObject(authContext)
         }
     }
 }
